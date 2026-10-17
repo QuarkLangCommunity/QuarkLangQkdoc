@@ -1,5 +1,10 @@
 # QuarkLangQkdoc
 
+> **Superseded. The maintained implementation** is
+> [`cmd/qkdoc`](https://github.com/QuarkLangCommunity/QuarkLangQkc/tree/main/cmd/qkdoc)
+> in the QuarkLang compiler repository. This standalone repository is kept for history; it is not
+> updated from that source, and its code differs from the maintained implementation.
+
 QuarkLang API 文档生成器——工具链成员。读取 .qk 源码（复用 `internal/lang` 的解析器），
 把类型/接口/实现/函数/FFI 库/类型别名/导入导出成 Markdown，并生成 `index.md`。
 
